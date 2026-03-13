@@ -3,8 +3,8 @@ import google.generativeai as genai
 
 # --- CONFIGURATION ---
 # Replace with your actual Gemini API Key or use streamlit secrets
-GEMINI_API_KEY = "AIzaSyBiNIVc4Kv-ak8V_X7bs3kOx2LXU_NabEU"
-genai.configure(api_key=AIzaSyBiNIVc4Kv-ak8V_X7bs3kOx2LXU_NabEU)
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+genai.configure(api_key=GEMINI_API_KEY)
 
 # --- APP UI ---
 st.set_page_config(page_title="SEO Link Inserter", layout="wide")
